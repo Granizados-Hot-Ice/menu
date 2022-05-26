@@ -1,7 +1,3 @@
-:root {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Bebas Neue', cursive;
     background-color: black;
@@ -12,9 +8,6 @@ body {
     text-align: center;
 }
 
-img {
-    margin-top: -10px;
-}
 
 .logo {
     width: 30%;
@@ -24,7 +17,7 @@ img {
 header {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     margin-top: 10%;
     margin-bottom: 5%;
